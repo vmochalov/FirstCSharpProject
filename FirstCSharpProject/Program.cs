@@ -16,7 +16,7 @@ namespace MyFirstProject
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("QA in Centrical are the best!");
-            Console.WriteLine("QA in Centrical are the best!");
+            //Console.WriteLine("QA in Centrical are the best!");
             Console.ReadKey();
         }
     }
