@@ -13,10 +13,10 @@ namespace MyFirstProject
             //byte x = 10; //chapter 8
             //Console.WriteLine(x + "\r\n" + 11); //chapter 8
             //Console.WriteLine("HeyHey"); //chapter 8
-            double x = 9.99;
+            /* double x = 9.99;
             int y = (int)x;
-            Console.WriteLine(y);
-            Console.ReadKey();
+            Console.WriteLine(y); */ //chapter 9
+            Console.ReadKey(); 
         }
     }
 }
