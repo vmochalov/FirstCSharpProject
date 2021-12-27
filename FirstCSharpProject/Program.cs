@@ -10,13 +10,9 @@ namespace MyFirstProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Yuda the King!");
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine("QA in Centrical are the best!");
-            //Console.WriteLine("QA in Centrical are the best!");
+            byte x = 10;
+            Console.WriteLine(x + "\r\n" + 11);
+            Console.WriteLine("HeyHey");
             Console.ReadKey();
         }
     }
