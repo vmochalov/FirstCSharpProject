@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "klvLhL/KDCAqcmDB2VPEBI7XtTANPOIdhFtaujMts4RM1UkeG6ODVOdI1ncKdPvjK6juvd+NXiOxDd8BlyKeHA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Centrical\\source\\repos\\FirstCSharpProject\\FirstCSharpProject\\FirstCSharpProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Centrical\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Centrical\\.nuget\\packages\\selenium.webdriver\\4.0.1\\selenium.webdriver.4.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "07db4640-45b6-4d2b-93a1-d6fa81b8d247": {
+      "ProjectGuid": "07db4640-45b6-4d2b-93a1-d6fa81b8d247",
+      "DisplayName": "FirstCSharpProject",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
