@@ -75,7 +75,7 @@ namespace MyFirstProject
 
         static void OperatorsArythmetic() // Chapter 17
         {
-
+            // Any text for revert
         }
     }
 }
