@@ -52,8 +52,30 @@ namespace MyFirstProject
             /* string[,] names1 = { { "Jackie", "Alex", "Sharon" }, { "Anatoli", "Yuda", "Adiel" } };
             Console.WriteLine(names1[1, 2]); */
 
+            // Chapter 13 - Get Input
+
+            /* Console.WriteLine("Type your age:");
+            var age = Console.ReadLine();
+            Console.WriteLine("Your age is " + age); */
+
+            // UserGetInput();
+            OperatorsArythmetic();
 
             Console.ReadKey(); 
+        }
+
+        static void UserGetInput() //Chapter 14 - Get Input
+        {
+            Console.WriteLine("Enter your birth year");
+            var birthyear = Console.ReadLine();
+            var age = 2021 - Int32.Parse(birthyear);
+            Console.WriteLine("Your age is " + age);
+            Console.ReadKey();
+        }
+
+        static void OperatorsArythmetic() // Chapter 17
+        {
+
         }
     }
 }
