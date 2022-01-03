@@ -59,7 +59,7 @@ namespace MyFirstProject
             Console.WriteLine("Your age is " + age); */
 
             // UserGetInput();
-            OperatorsArythmetic();
+            Statements();
 
             Console.ReadKey(); 
         }
@@ -73,9 +73,33 @@ namespace MyFirstProject
             Console.ReadKey();
         }
 
-        static void OperatorsArythmetic() // Chapter 17
+        static void Statements() // Chapter 17
         {
+            Console.WriteLine("Enter your birth year");
+            int birthyear = Int32.Parse(Console.ReadLine());
+            if (birthyear < 1900)
+            {
+                Console.WriteLine("You are lier!");
+            }
+            else
+            {
+                var age = 2021 - birthyear;
+                Console.WriteLine("Your age is " + age);
+                if (age >= 67)
+                {
+                    Console.WriteLine("Yeah go get your pension");
+                }
+                else if (age == 33)
+                {
+                    Console.WriteLine("Ufff so many years up to pension...");
+                }
+                else
+                {
+                    Console.WriteLine("Go to wooooork!");
+                }
+            }
 
+            Console.ReadKey();
         }
     }
 }
