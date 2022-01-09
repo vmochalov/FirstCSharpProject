@@ -59,11 +59,46 @@ namespace MyFirstProject
             Console.WriteLine("Your age is " + age); */
 
             // UserGetInput();
-            Statements();
+            // Statements();
+            //Factorial();
+            isPrimeNumber();
 
             Console.ReadKey(); 
         }
 
+        static void isPrimeNumber()
+        {
+            Console.WriteLine("Enter the number you want to check:");
+            int num = Int32.Parse(Console.ReadLine());
+            bool isPrime = true;
+            for(int i = 2; i <= num / 2; i++)
+            {
+                if ((num % i) == 0)
+                {
+                    isPrime = false;
+                    break;
+                }
+            }
+            if (isPrime)
+                Console.WriteLine("Prime number");
+            else
+                Console.WriteLine("Not a prime number");
+        }
+
+        static void Factorial()
+        {
+            int factor = 1, number;
+            Console.WriteLine("Please enter a number: ");
+            number = Int32.Parse(Console.ReadLine());
+
+            for(int i = 1; i <= number; i++)
+            {
+                //factor = factor * i;
+                factor *= i;
+            }
+            Console.WriteLine("Factorial of " + number + " is " + factor);
+        }
+        
         static void UserGetInput() //Chapter 14 - Get Input
         {
             Console.WriteLine("Enter your birth year");
