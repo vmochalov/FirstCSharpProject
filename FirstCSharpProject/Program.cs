@@ -61,9 +61,43 @@ namespace MyFirstProject
             // UserGetInput();
             // Statements();
             //Factorial();
-            isPrimeNumber();
+            //isPrimeNumber();
+            //PrintTheDots();
+            //exampleWithWhileLoop();
+            exampleWithDoWhileLoop();
 
-            Console.ReadKey(); 
+
+            //Console.ReadKey(); 
+        }
+
+        static void exampleWithDoWhileLoop()
+        {
+
+        }
+
+        static void exampleWithWhileLoop()
+        {
+            int i = 0, j = 0;
+            while (i < 10 && j < 10)
+            {
+                Console.WriteLine(i + " " + j);
+                i++;
+                j++;
+            }
+            Console.ReadKey();
+        }
+
+        static void PrintTheDots()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = i; j < 10; j++)
+                {
+                    Console.Write(".");
+                }
+                Console.WriteLine("");
+            }
+            Console.ReadKey();
         }
 
         static void isPrimeNumber()
